@@ -2,7 +2,7 @@ name: Scheduled GET Request
 
 on:
   schedule:
-    - cron: '40 12 * * *'  # Runs every day at 12:40 UTC, equivalent to 14:40 CEST
+    - cron: '30 14 * * *'  
 
 jobs:
   get_request:
