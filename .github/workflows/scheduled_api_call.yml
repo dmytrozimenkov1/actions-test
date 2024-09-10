@@ -1,10 +1,8 @@
 name: Scheduled GET Request
 
 on:
-  push:
   schedule:
-    - cron: '* * * * *'  # Runs every 1 minute
-
+    - cron: '40 12 * * *'  # Runs every day at 12:40 UTC, equivalent to 14:40 CEST
 
 jobs:
   get_request:
